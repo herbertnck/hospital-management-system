@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor1" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="752.0" style="-fx-background-color: #51bc97;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.management.ViewController">
+   <children>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="40.0" layoutY="77.0" AnchorPane.bottomAnchor="404.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="77.0">
+         <image>
+            <Image url="@files/registration-3938434_6401.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="276.0" layoutY="77.0" AnchorPane.bottomAnchor="404.0" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="276.0" AnchorPane.topAnchor="77.0">
+         <image>
+            <Image url="@files/accounts-385506_640.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="282.0" layoutY="440.0" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="282.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="440.0">
+         <image>
+            <Image url="@files/lab-2815641_640.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="40.0" layoutY="440.0" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="440.0">
+         <image>
+            <Image url="@files/pharmacy-1539191_640.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="btn" fx:id="openStore" alignment="CENTER" contentDisplay="CENTER" layoutX="520.0" layoutY="573.0" onAction="#openStore" prefHeight="30.0" prefWidth="200.0" stylesheets="@files/start.css" text="STORE" textFill="#9a3030">
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53434" />
+                  <Stop color="#b5343499" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="520.0" layoutY="440.0" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="520.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="440.0">
+         <image>
+            <Image url="@files/medical-store-555090_640.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="btn" fx:id="openPharmacy" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="573.0" onAction="#openPharmacy" prefHeight="25.0" prefWidth="200.0" stylesheets="@files/start.css" text="PHARMACY" textFill="#9a3030">
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53434" />
+                  <Stop color="#b2343498" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btn" fx:id="openLaboratory" alignment="CENTER" contentDisplay="CENTER" layoutX="282.0" layoutY="573.0" onAction="#openLaboratory" prefHeight="30.0" prefWidth="200.0" stylesheets="@files/start.css" text="LABORATORY" textFill="#9a3030">
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53434" />
+                  <Stop color="#b5343499" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btn" fx:id="openAccounts" alignment="CENTER" contentDisplay="CENTER" layoutX="274.0" layoutY="210.0" onAction="#openAccounts" prefHeight="25.0" prefWidth="200.0" stylesheets="@files/start.css" text="ACCOUNTS" textFill="#9a3030">
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53434" />
+                  <Stop color="#b234349a" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btn" fx:id="openRegistration" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="210.0" onAction="#openRegistration" prefHeight="25.0" prefWidth="200.0" stylesheets="@files/start.css" text="REGISTRATION" textFill="#9a3030">
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53434" />
+                  <Stop color="#b5343499" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="178.0" layoutY="14.0" prefHeight="37.0" prefWidth="392.0" text="SYDNEY HOSPITAL MANAGEMENT SYSTEM" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="520.0" layoutY="77.0">
+         <image>
+            <Image url="@files/hospital-ward-1338585_640.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="btn" fx:id="openWard" alignment="CENTER" contentDisplay="CENTER" layoutX="520.0" layoutY="210.0" onAction="#openWard" prefHeight="30.0" prefWidth="200.0" stylesheets="@files/start.css" text="WARD" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#b53434" />
+                  <Stop color="#b5343499" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fitHeight="118.0" fitWidth="200.0" layoutX="282.0" layoutY="261.0">
+         <image>
+            <Image url="@files/computer-3343887_640.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="btn" fx:id="openPatientdiag" alignment="CENTER" contentDisplay="CENTER" layoutX="282.0" layoutY="379.0" onAction="#openPatientdiag" prefHeight="30.0" prefWidth="200.0" stylesheets="@files/start.css" text="DOCTOR" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="118.0" fitWidth="200.0" layoutX="282.0" layoutY="261.0">
+         <image>
+            <Image url="@files/doctor-3343887_640.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+
+#anpane{
+    -fx-background-image:url("accounts-385506_640.jpg")
+    //-fx-background-color:#333; 
+}
+#pnpane{
+    -fx-background-image:url("pharmacy-1539191_640.jpg")
+    //-fx-background-color:#333; 
+}
+#lnpane{
+    -fx-background-image:url("lab-2815641_640.jpg")
+    //-fx-background-color:#333; 
+}
+#snpane{
+    -fx-background-image:url("medical-store-555090_640.jpg")
+    //-fx-background-color:#333; 
+}
+#rnpane{
+    -fx-background-image:url("registration-3938434_6402.jpg")
+    //-fx-background-color:#333; 
+}
+#wnpane{
+    -fx-background-image:url("hospital-ward-1338585_640.jpg")
+}
+#dnpane{
+    -fx-background-image:url("doctor-3343887_640.jpg")
+}
+#btn:hover {
+    -fx-background-color:  #9d9898;
+    -fx-text-fill: #b53434;
+}
+#btns:hover{
+    -fx-text-fill: #a44242;
+}
+#btns:pressed {
+    //-fx-padding: 10 15 13 15;
+}
+#txt {
+    -fx-font-size:14px;
+}
+#logtxt{
+    -fx-background-radius:10 10 10 10;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pnpane" fx:id="pnpane" prefHeight="376.0" prefWidth="515.0" stylesheets="@../files/start.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.management.userinterface.PharmacyLoginController">
+   <children>
+      <Label layoutX="162.0" layoutY="14.0" text="PHARMACY LOGIN" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField id="txt" fx:id="Pharmacistname" alignment="BASELINE_LEFT" focusColor="#9a3030" labelFloat="true" layoutX="280.0" layoutY="126.0" prefHeight="35.0" prefWidth="157.0" promptText="NAME" stylesheets="@../files/start.css">
+         <font>
+            <Font size="14.0" />
+         </font></JFXTextField>
+      <Label id="logtxt" layoutX="14.0" layoutY="126.0" prefHeight="35.0" prefWidth="233.0" style="-fx-background-color: #ae9797;" stylesheets="@../files/start.css" text=" PHARMACIST NAME" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="logtxt" layoutX="14.0" layoutY="201.0" prefHeight="35.0" prefWidth="233.0" style="-fx-background-color: #ae9797;" stylesheets="@../files/start.css" text=" PHARMACIST PASSWORD" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXPasswordField id="txt" fx:id="Pharmacistpassword" alignment="BASELINE_LEFT" focusColor="#9a3030" labelFloat="true" layoutX="280.0" layoutY="201.0" prefHeight="35.0" prefWidth="157.0" promptText="PASSWORD" stylesheets="@../files/start.css">
+         <font>
+            <Font size="14.0" />
+         </font></JFXPasswordField>
+      <JFXButton fx:id="Login" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" defaultButton="true" layoutX="339.0" layoutY="282.0" onAction="#createlogin" prefHeight="39.0" prefWidth="119.0" ripplerFill="#ae9797" style="-fx-background-color: #ae9797;" text="LOGIN" textFill="#9a3030">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
